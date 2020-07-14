@@ -1,0 +1,62 @@
+####
+####
+####asdasd
+GET http://postman-echo.com/get
+Connection: keep-alice #Comment
+X-Token: ASdasdasd#asdasd
+#Comment
+Accept: text/html
+
+
+> {%
+
+
+//client.global.isEmpty();
+
+ client.test("Request executed successfully", function() {
+        client.assert(response.status === 200, "Response status is not 200");
+    });
+%}
+
+###
+
+POST  https://postman-echo.com/post
+Connection:     keep-alice
+Accept: text/html
+Content-Type: application/json
+
+
+{
+  "a": 123
+}
+
+
+###
+#(comment
+#  {METHOD}\s{URI}\n
+#  HEADERS\n
+#  \n
+#  BODY
+#  {###}
+#   # - for comment
+#  )
+
+###
+
+POST  https://postman-echo.com/get
+Connection:     keep-alice
+Accept: text/html
+Content-Type: application/json
+
+
+{
+  "a": 123
+}
+
+
+> {%
+ client.test("Request executed failure", function() {
+        client.assert(response.status === 404, "Response status is not 404");
+    });
+%}
+

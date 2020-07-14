@@ -1,0 +1,90 @@
+[
+  {
+    "name": "java.lang.Throwable",
+    "methods": [
+      {
+        "name": "getMessage",
+        "parameterTypes": []
+      }
+    ]
+  },
+  {
+    "name": "javax.script.SimpleBindings",
+    "methods": [
+      {
+        "name": "put",
+        "parameterTypes": [
+          "java.lang.String",
+          "java.lang.Object"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "javax.script.ScriptEngineManager",
+    "methods": [
+      {
+        "name": "getEngineByName",
+        "parameterTypes": [
+          "java.lang.String"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "javax.script.AbstractScriptEngine",
+    "methods": [
+      {
+        "name": "eval",
+        "parameterTypes": [
+          "java.lang.String",
+          "javax.script.Bindings"
+        ]
+      },
+      {
+        "name": "getBindings",
+        "parameterTypes": [
+          "int"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "com.httptest.engine.Engine",
+    "allDeclaredConstructors": true,
+    "allPublicConstructors": true,
+    "allDeclaredMethods": true,
+    "allPublicMethods": true,
+    "allDeclaredClasses": true,
+    "allPublicClasses": true
+  },
+  {
+    "name": "http_test.engine.types.HttpResponse",
+    "fields" : [
+      { "name" : "body"},
+      { "name" : "headers"},
+      { "name" : "status"},
+      { "name" : "contentType" }
+    ],
+    "allPublicConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "http_test.engine.types.ResponseHeaders",
+    "allPublicConstructors": true,
+    "allPublicMethods": true
+  },
+  {
+    "name": "http_test.engine.types.ContentType",
+    "fields": [
+      {
+        "name": "mimeType"
+      },
+      {
+        "name": "charset"
+      }
+    ],
+    "allPublicConstructors": true,
+    "allPublicMethods": true
+  }
+]
