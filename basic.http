@@ -1,10 +1,11 @@
 ####
 ####
 ####asdasd
-GET http://postman-echo.com/get
-Connection: keep-alice #Comment
-X-Token: ASdasdasd#asdasd
 #Comment
+GET http://postman-echo.com/get
+Connection: keep-alice
+#COmmnet #asdasd #asdasd#
+X-Token: ASdasdasd #asdasd
 Accept: text/html
 
 
@@ -18,18 +19,37 @@ Accept: text/html
     });
 %}
 
+
 ###
 
 POST  https://postman-echo.com/post
 Connection:     keep-alice
-Accept: text/html
+Accept:
 Content-Type: application/json
 
+{
+  "a": 123
+}
+###
+POST  https://postman-echo.com/post
+Connection:     keep-alice
+Accept:
+Content-Type: application/json
 
 {
   "a": 123
 }
 
+
+> {%
+
+
+//client.global.isEmpty();
+
+ client.test("Request executed successfully", function() {
+        client.assert(response.status === 200, "Response status is not 200");
+    });
+%}
 
 ###
 #(comment

@@ -1,5 +1,7 @@
 # Http Request Tool
 
+https://www.jetbrains.com/help/idea/exploring-http-syntax.html#enable-disable-redirects
+
 Tools for run [JB Http Request file](https://www.jetbrains.com/help/idea/http-client-in-product-code-editor.html)
 
 Supported features
@@ -7,6 +9,9 @@ Supported features
 - [x] Basic http call 
 - [ ] Configuration env 
 - [x] Response handler scripts
+- [ ] Annotation support 
+- [ ] Cookie 
+- [ ] Auto save response
 
 
 ## Build
@@ -31,7 +36,7 @@ make clean
 ## Run
 
 ```shell script
-./jb-http-test
+./http-test -f basic.http
 ```
 
 

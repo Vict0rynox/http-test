@@ -24,13 +24,14 @@
     <orderEntry type="library" name="Leiningen: commons-codec:1.6" level="project" />
     <orderEntry type="library" name="Leiningen: flames:0.4.0" level="project" />
     <orderEntry type="library" name="Leiningen: http-kit:2.3.0" level="project" />
+    <orderEntry type="library" name="Leiningen: instaparse:1.4.10" level="project" />
     <orderEntry type="library" name="Leiningen: interval-metrics:1.0.0" level="project" />
     <orderEntry type="library" name="Leiningen: joda-time:2.8.2" level="project" />
     <orderEntry type="library" name="Leiningen: nrepl:0.6.0" level="project" />
-    <orderEntry type="library" name="Leiningen: org.clojure/clojure:1.10.0" level="project" />
+    <orderEntry type="library" name="Leiningen: org.clojure/clojure:1.10.2-alpha1" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/core.match:1.0.0" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/core.specs.alpha:0.2.44" level="project" />
-    <orderEntry type="library" name="Leiningen: org.clojure/spec.alpha:0.2.176" level="project" />
+    <orderEntry type="library" name="Leiningen: org.clojure/spec.alpha:0.2.187" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/tools.cli:1.0.194" level="project" />
     <orderEntry type="library" name="Leiningen: org.clojure/tools.logging:0.2.6" level="project" />
     <orderEntry type="library" name="Leiningen: org.martinklepsch/clj-http-lite:0.4.3" level="project" />

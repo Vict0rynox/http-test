@@ -7,7 +7,7 @@
   :java-source-paths #{"src/java"}
   :test-paths #{"test"}
   :resource-paths #{"resources"}
-  :dependencies [[org.clojure/clojure "1.10.0"]
+  :dependencies [[org.clojure/clojure "1.10.2-alpha1"]
                  ;; [clj-http "3.10.0"]
                  ;; [cheshire "5.9.0"]
 
@@ -17,6 +17,9 @@
 
                  ;;cli-tool
                  [org.clojure/tools.cli "1.0.194"]
+
+                 ;;parser
+                 [instaparse "1.4.10"]
 
                  ;;match
                  [org.clojure/core.match "1.0.0"]]
